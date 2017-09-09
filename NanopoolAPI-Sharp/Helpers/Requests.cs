@@ -8,11 +8,12 @@
 			AvgHashrate,
 			AvgHashrateLimited,
 			Balance,
-			BalanceAndHashrate,
+			Balance_Hashrate,
 			HashRate,
 			HashRateChart,
 			History,
-			LastReportedHashrate,
+			ReportedHashrate,
+			Workers,
 			User
 		}
 	}
