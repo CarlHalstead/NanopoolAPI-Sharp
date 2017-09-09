@@ -7,13 +7,15 @@
 			AccountExist,
 			AvgHashrate,
 			AvgHashrateLimited,
+			AvgHashrateWorkers,
 			Balance,
 			Balance_Hashrate,
-			HashRate,
-			HashRateChart,
+			Hashrate,
+			HashrateChart,
 			History,
 			Payments,
 			ReportedHashrate,
+			ShareRateHistory,
 			User,
 			Workers
 		}
