@@ -5,10 +5,14 @@
 		public enum RequestType
 		{
 			AccountExist,
-			AvgHashRate,
+			AvgHashrate,
+			AvgHashrateLimited,
 			Balance,
+			BalanceAndHashrate,
 			HashRate,
 			HashRateChart,
+			History,
+			LastReportedHashrate,
 			User
 		}
 	}

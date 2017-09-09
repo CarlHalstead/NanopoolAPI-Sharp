@@ -46,9 +46,11 @@
     <Compile Include="Data\AccountBalance.cs" />
     <Compile Include="Data\AccountExists.cs" />
     <Compile Include="Data\AverageHashrate.cs" />
+    <Compile Include="Data\AverageHashrateLimited.cs" />
     <Compile Include="Data\CurrentHashrate.cs" />
     <Compile Include="Data\GeneralInfo.cs" />
     <Compile Include="Data\HashrateChart.cs" />
+    <Compile Include="Data\HashrateHistory.cs" />
     <Compile Include="EthClient.cs" />
     <Compile Include="Helpers\HashrateAverages.cs" />
     <Compile Include="Helpers\NanopoolError.cs" />
