@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace NanopoolAPI_Sharp
 {
+	/// <summary>
+	/// The client for the API
+	/// </summary>
 	public class EthClient
 	{
 		const string baseUrl = "https://api.nanopool.org/v1/eth";
 		string address = "";
 
+		/// <summary>
+		/// Constructor to pass in the address
+		/// </summary>
+		/// <param name="address"></param>
 		public EthClient(string address)
 		{
 			if (string.IsNullOrEmpty(address)) throw new Exception("Your address should not be empty!");
@@ -44,6 +51,12 @@ namespace NanopoolAPI_Sharp
 			return await DoRequest<T>(url);
 		}
 
+		/// <summary>
+		/// Go to the supplied URl, download the JSON, try to parse it, then return the result
+		/// </summary>
+		/// <typeparam name="T"></typeparam>
+		/// <param name="url"></param>
+		/// <returns></returns>
 		public async Task<T> DoRequest<T>(string url)
 		{
 			using (WebClient client = new WebClient())

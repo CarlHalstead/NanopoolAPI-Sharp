@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\NanopoolAPI-Sharp.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -57,7 +58,6 @@
     <Compile Include="Data\ShareHistory.cs" />
     <Compile Include="Data\WorkerHashrates.cs" />
     <Compile Include="Data\WorkerList.cs" />
-    <Compile Include="Data\WorkersHashrates.cs" />
     <Compile Include="EthClient.cs" />
     <Compile Include="Helpers\HashrateAverages.cs" />
     <Compile Include="Helpers\NanopoolError.cs" />
