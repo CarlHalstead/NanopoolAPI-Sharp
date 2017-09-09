@@ -37,3 +37,6 @@ I commented everything so you should be able to hover over the enum and it will 
 Pair with the 'AccountExists' class
 ```
 Which should give you an indication of what to use.
+
+## Are there any dependancies?
+Yes! Make sure you have Newtonsoft JSON installed. The latest version should be fine and can be installed however you want.
