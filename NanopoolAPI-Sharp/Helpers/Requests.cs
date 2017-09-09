@@ -12,9 +12,10 @@
 			HashRate,
 			HashRateChart,
 			History,
+			Payments,
 			ReportedHashrate,
-			Workers,
-			User
+			User,
+			Workers
 		}
 	}
 }
