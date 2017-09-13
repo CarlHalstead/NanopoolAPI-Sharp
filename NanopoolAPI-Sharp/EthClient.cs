@@ -57,7 +57,7 @@ namespace NanopoolAPI_Sharp
 		/// <typeparam name="T"></typeparam>
 		/// <param name="url"></param>
 		/// <returns></returns>
-		public async Task<T> DoRequest<T>(string url)
+		async Task<T> DoRequest<T>(string url)
 		{
 			using (WebClient client = new WebClient())
 			{

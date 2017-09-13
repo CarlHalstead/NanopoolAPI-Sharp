@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>NanopoolAPI</id>
+        <version>0.9</version>
+        <title>NanopoolAPI-Sharp</title>
+        <authors>TaleOf4Gamers</authors>
+        <projectUrl>https://github.com/GamingAnonymous/NanopoolAPI-Sharp</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A C# wrapper for the Nanopool API</description>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.2">
+                <dependency id="Newtonsoft.Json" version="9.0.1" />
+            </group>
+        </dependencies>
+    </metadata>
+</package>
