@@ -1,5 +1,5 @@
 ## What is this?
-This is a C# wrapper for the Cryptocurrency mining platform, Nanopool. Its wraps the web api into an easy to use DLL.
+This is a C# wrapper for the Cryptocurrency mining platform, Nanopool. Its wraps the web API into an easy to use package.
 
 ## What cant this do?
 As of this moment (9th September) it only uses the Miner section of the API which is used to get access about a user and their miners. However, I would like to continue to develop it and implement the entire API. As for the Miner section of the API this can retrive about 95% of the calls.
@@ -8,7 +8,13 @@ As of this moment (9th September) it only uses the Miner section of the API whic
 It simply constructs the URL using the enum that you pass into the method along with your cryptocurrency address. It then downloads the JSON from the URL and parses it into a C# class which is returned and able to be accessed by the user.
 
 ## How do I install it?
-You install it by simply downloading the DLL from the releases page for this project. Then importing it as a reference into your Visual Studio Project. Within your scripts you can then add 3 using statements:
+* Through the Nuget package manager - Simply search for Nanopool or run:
+```
+Install-Package NanopoolAPI -Version 0.9.0
+```
+* Alternatively, visiting the [nuget](https://www.nuget.org/packages/NanopoolAPI/) page and downloading the package manually
+
+Within your scripts you can then add 3 using statements:
 ```
 using NanopoolAPI_Sharp;
 using NanopoolAPI_Sharp.Data;
