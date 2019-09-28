@@ -2,7 +2,7 @@
 This is a C# wrapper for the Cryptocurrency mining platform, Nanopool. Its wraps the web API into an easy to use package.
 
 ## What cant this do?
-As of this moment (9th September) it only uses the Miner section of the API which is used to get access about a user and their miners. However, I would like to continue to develop it and implement the entire API. As for the Miner section of the API this can retrive about 95% of the calls.
+As of this moment (9th September) it only uses the Miner section of the API which is used to get access about a user and their miners. However, I would like to continue to develop it and implement the entire API. As for the Miner section of the API this can retrieve about 95% of the calls.
 
 ## How does it work?
 It simply constructs the URL using the enum that you pass into the method along with your cryptocurrency address. It then downloads the JSON from the URL and parses it into a C# class which is returned and able to be accessed by the user.
